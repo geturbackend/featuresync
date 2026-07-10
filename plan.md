@@ -41,6 +41,7 @@ npm install @urbackend/react @urbackend/sdk
 ```env
 # .env.local
 NEXT_PUBLIC_URBACKEND_API_KEY=pk_live_...
+URBACKEND_SECRET_KEY=sk_live_...
 ```
 
 **Critical rules (from docs):**
