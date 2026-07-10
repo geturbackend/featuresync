@@ -46,7 +46,7 @@ export default function Home() {
       <main className="content-area">
         <div style={{ marginBottom: '2rem', textAlign: 'center' }}>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '0.5rem', letterSpacing: '-0.025em' }}>
-            Feature Request Board
+            Feature Request Board <span style={{fontWeight: '400', color: 'var(--color-text-muted)'}}>for</span> <a href="https://github.com/yash-pouranik/urBackend" target="_blank" rel="noopener noreferrer" style={{color: 'var(--color-accent)', textDecoration: 'none'}}>urBackend</a>
           </h1>
           <p style={{ color: 'var(--color-text-muted)', fontSize: '1.125rem' }}>
             Help us shape the future of our product by submitting and voting on ideas.
